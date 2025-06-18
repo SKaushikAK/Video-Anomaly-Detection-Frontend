@@ -1,0 +1,113 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content :center ;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0077b6;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    left: 1rem;
+}
+
+.header-right {
+    background-color: #023e8a;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-right:hover {
+    background-color: #0353a4;
+}
+
+/* Main Layout */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-content h3 {
+    font-size: 1.4rem;
+    color: #1d3557;
+}
+
+.right-content {
+    flex: 1;
+    padding-left: 2rem;
+    border-left: 2px solid #dee2e6;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+}
+
+/* Input and Button Styles */
+input[type='file'] {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0096c7;
+}
+
+/* Prediction Result */
+.prediction {
+    margin-top: 1.5rem;
+    background-color: #e3f2fd;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #90caf9;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.prediction p {
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.prediction img {
+    margin-top: 1rem;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 2px solid #90caf9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
